@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Welcome to the Calculator App </h1>
+
+<form method="post" asp-action="About">
+    <div>
+        <label for="number1">Enter the first number:</label>
+        <input type="number" name="number1" />
+    </div>
+    <div>
+        <label for="number2">Enter the second number:</label>
+        <input type="number" name="number2" />
+    </div>
+    <button type="submit">Calculate</button>
+</form>
